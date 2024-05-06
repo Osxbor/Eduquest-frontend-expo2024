@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Sidebar from '../components/ui/sidebar.astro';
+import Navbar from '../components/ui/navbar.astro';
+---
+
+<Layout title="EduQuest">
+	<main class="">
+		<div class="h-screen w-screen flex justify-between items-center">
+			<Sidebar />
+            <div class="w-full h-full justify-center items-start">
+                <Navbar />
+            </div>
+		</div>
+	</main>
+</Layout>
