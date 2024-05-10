@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Sidebar from '../components/ui/sidebar.astro';
+import Navbar from '../components/ui/navbar.astro';
+import CreacionCursos from '../components/CreacionCursos.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="">
+		<div class="h-screen w-screen flex justify-between items-center">
+			<Sidebar />
+            
+            <div class="w-full h-full justify-center items-start">
+                <Navbar />
+                <div class="flex justify-center items-center h-4/6">
+                    <CreacionCursos/>
+                </div>
+            </div>
+		</div>
+	</main>
+</Layout>
